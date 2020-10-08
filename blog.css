@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Assistant:wght@300&family=IM+Fell+French+Canon&family=Manrope:wght@200&family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+
+* {
+    background-color: rgb(231, 209, 181);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.home {
+    background-color: rgb(231, 209, 181);
+}
+.center {
+    text-align: center;
+}
+
+body {
+    margin: 0px ;
+   box-sizing: border-box;
+   padding-left: initial;
+}
+
+
+h2, h3, h4, h5, p {
+    box-sizing: border-box;
+    padding: 1px 8px 4px 82px; 
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(196, 150, 87);
+}
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(196, 150, 87);
+}
+
+  a:hover {
+    color:  rgb(255, 255, 255);
+}
+
+
+.loveskin {
+    width: 45%;
+    height:45%;
+}
+
+
+.containerpic {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    color: rgb(196, 150, 87);
+    box-sizing: border-box;
+    padding: 10px 10px 25px 12px;
+    margin: 0px;
+    border: 7px;
+}
+
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 38px;
+    color: rgb(196, 150, 87);
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 33px;
+    color: rgb(196, 150, 87);
+    font-weight: lighter;
+
+}
+
+h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    color: rgb(149, 169, 206);
+}
+
+h5, p {
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    color: rgb(149, 169, 206);
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+
+.step {
+   font-family: 'Manrope', sans-serif;
+   font-size: 25px;
+   color: rgb(8, 0, 0);
+}

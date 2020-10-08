@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Assistant:wght@300&family=IM+Fell+French+Canon&family=Manrope:wght@200&family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+
+* {
+    background-color: rgb(231, 209, 181);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+body {
+    margin: 0px ;
+}
+
+.home {
+    background-color: rgb(231, 209, 181);
+}
+
+.center {
+    text-align: center;
+}
+
+.centerimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.intro {
+    box-sizing: border-box;
+    padding: 0px 0px 8px 0px;
+   
+}
+
+#explore {
+    color: rgb(248, 239, 239);
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color:rgb(65, 11, 11);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(65, 11, 11);
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: rgb(170, 131, 207);
+  }
+  
+  a:active {
+    text-decoration: underline;
+}
+
+/* flex-boxes for image and text layout*/
+
+.blogimg {
+    height: 32%;
+    width: 32%;
+    display: flex;
+    align-items: left;
+}
+
+.homepic {
+    height: 55%;
+    width: 55%;
+}
+
+#space {
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Content Properties*/
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    color: rgb(128, 97, 53);
+    box-sizing: border-box;
+    padding: 10px 10px 25px 12px;
+    margin: 0px;
+    border: 7px;
+}
+
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    color: rgb(37, 18, 0);
+}
+
+h3 {
+    font-family: 'Buenard', serif;
+    font-size: 20px;
+    color:rgb(177, 127, 86);
+    font-weight: lighter; 
+    font-style: initial;
+}
+
+h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+h5, p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px ;
+}
